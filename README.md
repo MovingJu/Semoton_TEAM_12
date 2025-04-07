@@ -2,6 +2,8 @@
 
 ![우수상 이미지 대체 텍스트](statics/images/result.png)
 
+**LinKHU**
+
 세모톤 12팀 코드
 
 우수상 수상작
@@ -17,6 +19,10 @@
 
 - **Backend** : All other files/folders except [khu-map-front](/khu-map/)
 - **Frontend** : In [khu-map-front](/khu-map/)
+
+# What does this repo do?
+
+We wrote main features of LinKHU in [presentation pdf](/presentation.pdf)
 
 # Tech stack
 
@@ -41,7 +47,6 @@ python -m venv venv
 pip installl -r requirements.txt
 ```
 
-
 # How to run
 
 In one console
@@ -59,6 +64,28 @@ npm run dev
 ```
 
 And the server will run on http://localhost:5173/
+
+# FAQ
+
+## How Frontend and Backend communicates?
+
+We created a backend with endpoints.
+
+You can check endpoints and funcitons in [BACKEND README](/README_backend.md).
+
+## Why hasn't pathfinding feature been implemented?
+
+The backend includes the pathfinding feature.
+
+But we didn't have enough time to implement it on the frontend.
+
+You can check simple pathfinding feature by entering following code:
+
+```yaml
+http://localhost:5000/navigate?start=전정대&end=멀관
+```
+
+on your chrome while the server is running
 
 # License
 
