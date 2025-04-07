@@ -4,6 +4,8 @@
 
 세모톤 12팀 코드
 
+우수상 수상작
+
 # Contributers
 
 - **Repository Management** : [@Movingju](https://github.com/Movingju)
@@ -13,8 +15,8 @@
 
 # Repository
 
-- **Backend** : All other files/folders except [khu-map-front](/khu-map-frontend/)
-- **Frontend** : In [khu-map-front](/khu-map-frontend/)
+- **Backend** : All other files/folders except [khu-map-front](/khu-map/)
+- **Frontend** : In [khu-map-front](/khu-map/)
 
 # Tech stack
 
@@ -38,6 +40,25 @@ python -m venv venv
 .\venv\Script\activate
 pip installl -r requirements.txt
 ```
+
+
+# How to run
+
+In one console
+
+```bash
+python3 main.py
+```
+
+In another console
+
+```bash
+cd khu-map
+npm install
+npm run dev
+```
+
+And the server will run on http://localhost:5173/
 
 # License
 
